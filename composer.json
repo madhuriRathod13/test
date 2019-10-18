@@ -21,7 +21,6 @@
     "source": "http://core.trac.wordpress.org/browser"
   },
   "require": {
-    "php": ">=5.6.20",
-    "madhurirathod13/test": "^1.0"
+   "madhurirathod13/test": "^1.0"
   }
 }
