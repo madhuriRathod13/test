@@ -6,9 +6,7 @@
     "blog",
     "cms"
   ],
-  "type": "package",
-  "homepage": "http://wordpress.org/",
-  "license": "GPL-2.0+",
+  "type": "package", 
   "authors": [
     {
       "name": "WordPress Community",
