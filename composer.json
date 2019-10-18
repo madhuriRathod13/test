@@ -1,9 +1,9 @@
 {
-	"name"       : "madhurirathod13/test",
+	"name"       : "madhurirathodsyn/test",
 	"description": "Lightweight generic blocker of updates from official WordPress repositories",
 	"keywords"   : ["wordpress"],
 	"type"       : "wordpress-plugin",
-	"homepage"   : "https://github.com/madhuriRathod13/test",
+	"homepage"   : "https://github.com/madhurirathodsyn/test",
 	"license"    : "MIT",
 	"require"    : {
 		"composer/installers": "~1.0"
