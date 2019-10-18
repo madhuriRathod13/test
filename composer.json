@@ -1,26 +1,12 @@
 {
-  "name": "madhurirathod13/test",
-  "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-  "keywords": [
-    "wordpress",
-    "blog",
-    "cms"
-  ],
-  "type": "package", 
-  "authors": [
-    {
-      "name": "WordPress Community",
-      "homepage": "http://wordpress.org/about/"
-    }
-  ],
-  "support": {
-    "issues": "http://core.trac.wordpress.org/",
-    "forum": "http://wordpress.org/support/",
-    "wiki": "http://codex.wordpress.org/",
-    "irc": "irc://irc.freenode.net/wordpress",
-    "source": "http://core.trac.wordpress.org/browser"
-  },
-  "require": {
-   "madhurirathod13/test": "^1.0"
-  }
+	"name"       : "madhurirathod13/test",
+	"description": "Lightweight generic blocker of updates from official WordPress repositories",
+	"keywords"   : ["wordpress"],
+	"type"       : "wordpress-plugin",
+	"homepage"   : "https://github.com/madhuriRathod13/test",
+	"license"    : "MIT",
+	"require"    : {
+		"composer/installers": "~1.0"
+	}
 }
+
