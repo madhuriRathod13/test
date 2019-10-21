@@ -2,7 +2,7 @@
 {
     "type": "package",
     "package": {
-        "name": "test-comp", //give package name to anything, must be unique
+        "name": "madhurirathodsyn/test", //give package name to anything, must be unique
         "version": "1.0",
         "source": {
             "url": "https://github.com/madhurirathodsyn/test.git", //git url
@@ -12,5 +12,5 @@
     }
 }],
 "require" : {
-  "test-comp": "1.0"
+  "madhurirathodsyn/test": "1.0"
 }
