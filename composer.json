@@ -1,16 +1,16 @@
+"repositories": [
 {
-	"name"       : "madhurirathodsyn/test",
-	"description": "Lightweight generic blocker of updates from official WordPress repositories",
-	"keywords"   : ["wordpress"],
-	"type"       : "wordpress-plugin",
-	"homepage"   : "https://github.com/madhurirathodsyn/test",
-	"license"    : "MIT",
-	"require"    : {
-		"composer/installers": "~1.0"
-	},
-	"repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/madhuriRathod13/test.git"
-    }],
+    "type": "package",
+    "package": {
+        "name": "test-comp", //give package name to anything, must be unique
+        "version": "1.0",
+        "source": {
+            "url": "https://github.com/madhurirathodsyn/test.git", //git url
+            "type": "git",
+            "reference": "master" //git branch-name
+        }
+    }
+}],
+"require" : {
+  "test-comp": "1.0"
 }
-
